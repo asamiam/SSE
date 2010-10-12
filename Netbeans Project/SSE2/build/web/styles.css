@@ -1,0 +1,433 @@
+/* This rule resets a core set of elements so that they will appear consistent across browsers. Without this rule, content styled with an h1 tag, for example, would appear in different places in Firefox and Internet Explorer because each browser has a different top margin default value. By resetting these values to 0, the elements will initially be rendered in an identical fashion and their properties can be easily defined by the designer in any subsequent rule. */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+}
+/* The body is the outermost layout component and contains the visible page content. Setting properties for the body element will help to create consistent styling of the page content and more manageable CSS. Besides using the body element to set global properties, it is common to use the body element to set the background color of the page and create a centered container for the page content to display. */
+
+html {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:  76%;
+	height: 100%;
+}
+body {
+	color: #000;
+	margin: 0 0 0 0; /* Sets the margin properties for an element using shorthand notation (top, right, bottom, left) */
+	padding: 0 0 0 0; /* Sets the padding properties for an element using shorthand notation (top, right, bottom, left) */
+	text-align: center; /* Centers the page content container in IE 5 browsers. */
+	background: #2D4262;
+}
+/* Sets the style for unvisited links. */
+a, a:link {
+	color: #2D4262;
+}
+/* Sets the style for visited links. */
+a:visited {
+	color: #000;
+}
+/* Sets the style for links on mouseover. */
+a:hover {
+	color: #5275AA;
+}
+/* Sets the style for a link that has focus. */
+a:focus {
+	color: #000;
+}
+/* Sets the style for a link that is being activated/clicked. */
+a:active {
+	color: #000;
+}
+.clear {
+	clear:both;
+}
+.right {
+	float: right;
+	margin-bottom: 10px;
+	margin-left: 10px;
+}
+.left {
+	float: left;
+	margin-right: 20px;
+	margin-bottom: 5px;
+}
+.arrow {
+	background: url(images/arrow.gif) no-repeat left top;
+	padding-left: 15px;
+	margin-top: 8px;
+}
+/* ---------- Page Structure CSS ---------- */
+
+#header {
+	text-align: left;
+	height: 75px;
+	padding-left: 30px;
+	background: url(images/header-bg.gif) no-repeat center top;
+}
+#title {
+	float:left;
+	font: 36px/70px Georgia, "Times New Roman", Times, serif;
+	color: #FFF;
+	letter-spacing: -1px;
+}
+#title a, #title a:link, #title a:visited {
+	color: #FFF;
+	text-decoration:none;
+}
+#title a:hover {
+	color: #A8BDD5;
+	text-decoration: none;
+}
+#headlinks {
+	float:right;
+	width:300px;
+	text-align:right;
+	color: #C1D0E1;
+	padding:30px 30px 0 0;
+}
+#headlinks a, #headlinks a:link, #headlinks a:visited, #headlinks a:active {
+	color: #C1D0E1;
+	text-decoration:none;
+}
+#headlinks a:hover {
+	color: #FFF;
+	text-decoration:none;
+}
+/* This is a container for the page content. It is common to use the container to constrain the width of the page content and allow for browser chrome to avoid the need for horizontal scrolling. For fixed layouts you may specify a container width and use auto for the left and right margin to center the container on the page. IE 5 browser require the use of text-align: center defined by the body element to center the container. For liquid layouts you may simply set the left and right margins to center the container on the page. */
+#outerWrapper {
+	margin: 0 auto 0 auto; /* Sets the margin properties for an element using shorthand notation (top, right, bottom, left) */
+	text-align: left; /* Redefines the text alignment defined by the body element. */
+	width: 920px;
+}
+#threeColumns { /* This sets the id for a 3 column layout */
+	overflow: hidden;
+	background: #FFF url(images/content-fill.gif) repeat-y left;
+	width: 920px;
+}
+#threeColumns #leftColumn {
+	float: left;
+	padding: 15px 0px 10px 25px; /* Sets the padding properties for an element using shorthand notation (top, right, bottom, left) */
+	width: 180px;
+}
+#threeColumns #rightColumn {
+	float: right;
+	padding: 15px 30px 10px 0px; /* Sets the padding properties for an element using shorthand notation (top, right, bottom, left) */
+	width: 180px;
+}
+/* Contains the main page content. When using a mutliple column layout the margins will be set to account for the floated columns' width, margins, and padding. */
+#threeColumns #content {
+	margin: 0 205px 0 215px; /* Sets the margin properties for an element using shorthand notation (top, right, bottom, left) */
+	padding: 20px 10px 30px; /* Sets the padding properties for an element using shorthand notation (top, right, bottom, left) */
+	width: 460px;
+}
+#twoColumnleft { /* This sets the id for a 2 column layout with a left column only */
+	overflow: hidden;
+	background: #FFF url(images/content-fill.gif) repeat-y left;
+	width: 920px;
+}
+#twoColumnleft #content, #twoColumnright #content {
+	width:580px;
+}
+#twoColumnleft #leftColumn {
+	float: left;
+	padding: 15px 10px 10px 30px; /* Sets the padding properties for an element using shorthand notation (top, right, bottom, left) */
+	width: 180px;
+}
+#twoColumnleft #rightColumn {
+	display:none;
+}
+/* Contains the main page content. When using a mutliple column layout the margins will be set to account for the floated columns' width, margins, and padding. */
+#twoColumnleft #content {
+	margin: 0 15px 0 240px; /* Sets the margin properties for an element using shorthand notation (top, right, bottom, left) */
+	padding: 20px 10px 30px; /* Sets the padding properties for an element using shorthand notation (top, right, bottom, left) */
+}
+#twoColumnright { /* This sets the id for a 2 column layout with a right column only */
+	overflow: hidden;
+	background: #FFF url(images/content-fill.gif) repeat-y left;
+	width: 920px;
+}
+#twoColumnright #leftColumn {
+	display:none;
+}
+#twoColumnright #rightColumn {
+	float: right;
+	padding: 25px 35px 10px 10px; /* Sets the padding properties for an element using shorthand notation (top, right, bottom, left) */
+	width: 240px;
+}
+/* Contains the main page content. When using a mutliple column layout the margins will be set to account for the floated columns' width, margins, and padding. */
+#twoColumnright #content {
+	margin: 0 0px 0 15px; /* Sets the margin properties for an element using shorthand notation (top, right, bottom, left) */
+	padding: 30px 10px 30px 20px; /* Sets the padding properties for an element using shorthand notation (top, right, bottom, left) */
+}
+#footer {
+	padding: 25px 10px 10px 30px; /* Sets the padding properties for an element using shorthand notation (top, right, bottom, left) */
+	background: url(images/footer.gif) no-repeat left top;
+	height: 48px;
+	color: #C1D0E1;
+	clear: both;
+}
+#credit {
+	text-align: center;
+	padding-top: 0px;
+	padding-bottom: 8px;
+	font-size: 11px;
+	color: #456290;
+	width: 920px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#credit a, #credit a:hover, #credit a:visited, #credit a:active, #credit a:focus {
+	color: #456290;
+	font-weight: normal;
+	text-decoration: none;
+}
+/* ---------- Navigation CSS ---------- */
+
+#navcontainer {
+	position:relative;
+	height:40px;
+	width:100%;
+	font-family:Helvetica, Arial, Verdana, sans-serif;
+}
+#nav {
+	position:relative;
+	height:50px;
+	text-transform:uppercase;
+	background:url(images/nav-container-bg.gif) no-repeat left top;
+	padding:0 0 0 23px;
+	font-size: 11px;
+	font-weight: bold;
+}
+#nav ul {
+	margin:0;
+	padding:25px 0px 0px 15px;
+	list-style-type:none;
+}
+#nav ul li {
+	display:inline;
+	margin:0px;
+	padding-right: 20px;
+	width: auto;
+}
+#nav ul li a {
+	color:#C1D0E1;
+	text-decoration:none;
+}
+#nav ul li a:hover {
+	color:#FFF;
+}
+
+/* ---------- Typography CSS ---------- */
+
+h1 {
+	margin-top: 0em;
+	margin-bottom: 0em;/*both set to zero and padding in header div is used intead to deal with compound ie pc problems that are beyound summary in a simple comment.*/
+	font: normal 2em Georgia, "Times New Roman", Times, serif;
+        color: white;
+}
+h2 {
+	margin: .5em 0em;
+	color: #4C6D9E;
+	font: normal 1.7em Georgia, "Times New Roman", Times, serif;
+}
+h3 {
+	font-size: 1.4em;
+	margin: .5em 0em;
+	font-weight: bold;
+}
+h4 {
+	font-size: 1.2em;
+	margin: .5em 0em;
+	font-weight: bold;
+	color: #5275AA;
+}
+h5 {
+	font-size: 1.0em;
+	margin: .5em 0em;
+	font-weight: bold;
+}
+h6 {
+	font-size: 0.8em;
+	margin: .5em 0em;
+	font-weight: bold;
+}
+img {
+	border: 0;
+}
+p {
+	font-size: 1.0em;
+	line-height: 1.5em;
+	margin: 1.2em 0em 1.2em 0em;
+        color: white;
+}
+pre {
+	font-family: monospace;
+	font-size: 1.2em;
+	background: #F4F4F4;
+	margin: 15px;
+	padding: 10px;
+	border: 1px dotted #CCC;
+}
+#footer a, #footer a:link, #footer a:visited, #footer a:active {
+	color: #C1D0E1;
+}
+#footer a:hover {
+	color: #FFF;
+}
+/* ---------- Two Column CSS ---------- */
+
+.csscolumns {
+	overflow:hidden;
+	width: 100%;
+}
+/* Note: adding larger margins or padding to columns requires that you decrease the width setting proportionally. If you add padding to the container, the same applies. */
+
+#col_one_2 {
+	margin: 0;
+	float: left;
+	width:48%;
+}
+#col_two_2 {
+	margin: 0 0 0 12px; /* Puts a 12 pixel space between columns (left side) */
+	float: left;
+	width:48%;
+}
+/* ---------- Three Column CSS ---------- */
+
+/* Note: adding larger margins or padding to columns requires that you decrease the width setting proportionally. If you add padding to the container, the same applies. */
+
+#col_one_3 {
+	margin: 0;
+	float: left;
+	width:31%;
+}
+#col_two_3 {
+	margin: 0 0 0 12px; /* Puts a 12 pixel space between columns (left side) */
+	float: left;
+	width:31%;
+}
+#col_three_3 {
+	margin: 0 0 0 12px; /* Puts a 12 pixel space between columns (left side) */
+	float: left;
+	width:31%;
+}
+/* ---------- Four Column CSS ---------- */
+
+/* Note: adding larger margins or padding to columns requires that you decrease the width setting proportionally. If you add padding to the container, the same applies. */
+
+#col_one_4 {
+	margin: 0;
+	float: left;
+	width:23%;
+}
+#col_two_4 {
+	margin: 0 0 0 12px; /* Puts a 12 pixel space between columns (left side) */
+	float: left;
+	width:23%;
+}
+#col_three_4 {
+	margin: 0 0 0 12px; /* Puts a 12 pixel space between columns (left side) */
+	float: left;
+	width:23%;
+}
+#col_four_4 {
+	margin: 0 0 0 12px; /* Puts a 12 pixel space between columns (left side) */
+	float: left;
+	width:23%;
+}
+/* ---------- Side column menu styles ---------- */
+
+.styledmenu {
+	width: 100%; /*width of menu*/
+}
+.styledmenu .headerbar {
+	font: bold 13px Verdana;
+	color: white;
+	background: #2D4262 url(images/styled-menu-bg.jpg) no-repeat right top; /*last 2 values are the x and y coordinates of bullet image*/
+	margin-bottom: 2px; /*bottom spacing between header and rest of content*/
+	margin-top:0px;
+	text-transform: uppercase;
+	padding: 7px 0 7px 8px; /*31px is left indentation of header text*/
+}
+.styledmenu ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0; /*bottom spacing between each UL and rest of content*/
+}
+.styledmenu ul li {
+	padding-bottom: 2px; /*bottom spacing between menu items*/
+	margin: 0px;
+}
+.styledmenu ul li a {
+	color: black;
+	background: #E2E9F1;
+	display: block;
+	padding: 5px 0;
+	line-height: 17px;
+	padding-left: 8px; /*link text is indented 8px*/
+	text-decoration: none;
+}
+.styledmenu ul li a:visited {
+	color: black;
+}
+.styledmenu ul li a:hover { /*hover state CSS*/
+	color: white;
+	background: #5A7EB4;
+	text-decoration: none;
+}
+.simplemenu {
+	width: 100%; /*width of menu*/
+}
+.simplemenu .headerbar {
+	font: bold 13px Verdana;
+	color: #000; /*last 2 values are the x and y coordinates of bullet image*/
+	margin-bottom: 0px; /*bottom spacing between header and rest of content*/
+	margin-top:0px;
+	text-transform: uppercase;
+	padding: 7px 0 7px 0px; /*31px is left indentation of header text*/
+}
+.simplemenu ul {
+	list-style-type: none;
+	padding: 0 0 20px; /*bottom spacing between each UL and rest of content*/
+	margin: 0;
+}
+.simplemenu ul li {
+	margin: 0px;
+	padding-bottom: 2px;
+}
+.simplemenu ul li a {
+	font: normal 12px Arial;
+	color: black;
+	background: #FFF;
+	display: block;
+	padding: 4px 0 4px 5px;
+	line-height: 17px; /*link text is indented 8px*/
+	text-decoration: none;
+	border-bottom: 1px solid #E2E9F1;
+}
+.simplemenu ul li a:visited {
+	color: black;
+}
+.simplemenu ul li a:hover { /*hover state CSS*/
+	color: #000;
+	background: #E2E9F1;
+	text-decoration: none;
+}
+/* ---------- Common styles shared between both left and right columns ---------- */
+
+.sidebarlt {
+	padding: 6px;
+	border: 1px solid #9CB1D1;
+	background: #E2E9F1 url(images/sidebarlt-bg.gif) no-repeat right top;
+}
+.sidebardk {
+	color: #FFFFFF;
+	border: 1px solid #131D2B;
+	padding: 6px;
+	background-color: #2D4262;
+}
+.sidebardk a, .sidebardk a:hover, .sidebardk a:visited, sidebardk a:active {
+	color: #FFFFFF;
+	text-decoration:underline;
+}

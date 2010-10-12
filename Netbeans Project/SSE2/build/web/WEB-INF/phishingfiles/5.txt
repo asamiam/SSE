@@ -1,0 +1,73 @@
+Trevor Kletz
+From Wikipedia, the free encyclopedia
+Jump to: navigation, search
+Cover of Trevor Kletz Autobiography
+
+Trevor Kletz OBE is a prolific British author on the topic of chemical engineering safety. He is credited with introducing the concept of inherent safety, and was a major promoter of Hazop.
+Contents
+[hide]
+
+    * 1 Early Life and Education
+    * 2 Professional Life
+    * 3 Honours
+    * 4 References
+    * 5 Books (sole author)
+    * 6 Books (joint author)
+    * 7 External links
+
+[edit] Early Life and Education
+
+He was born in 1922 in Darlington of Jewish parents, from a Russian immigrant background. He attended The King's School, Chester, then the University of Liverpool, where he graduated in chemistry in 1944 and joined ICI the same year. During the Second World War, he was a member of the Home Guard. In 1959 he married Denise (died 1980) and they had two boys[1].
+
+[edit] Professional Life
+
+In ICI he worked initially as a research chemist, then became plant manager (in turn) of iso-octane, acetone and tar acids plants. After further experience in process investigation and commissioning in the Technical Department, in 1961 he became assistant works manager on the Olefines works. In 1968, he was appointed the first Technical Safety Advisor[1].
+
+During this time, ICI developed hazard and operability studies, now known as Hazop, for which he was an enthusiastic advocate, and the author of the first book on the subject.[2]
+
+When he retired in 1982 he had established a safety culture within the company based on communication, and had begun a second career and an international reputation as an author and speaker. Most of his books are concerned with case studies from industry and the human and technical causes. Shortly after his retirement he expanded a paper entitled "What you don't have, can't leak"[3] into the book which began the concept of inherent safety [4].
+
+[edit] Honours
+
+He is a Fellow of the Royal Academy of Engineering, the Royal Society of Chemistry, the Institution of Chemical Engineers, and the American Institute of Chemical Engineers. He was awarded medals by the latter two institutions.
+
+He is a visiting Professor of Chemical Engineering at Loughborough University and an adjunct professor of the Texas A&M University Artie McFerrin Department of Chemical Engineering.
+
+In 1997 he was awarded the OBE for services to industrial safety[5].
+
+[edit] References
+
+   1. ^ a b Trevor Kletz (2000) By Accident… a Life Preventing them in industry PFV, ISBN 0-9538440-0-5
+   2. ^ T. Kletz (1983) HAZOP & HAZAN- Notes on the Identification and Assessment of Hazards Institution of Chemical Engineers
+   3. ^ T. Kletz (1978) Chemistry & Industry 6 May 1978 page 278
+   4. ^ T. Kletz (1984) Cheaper, safer plants IChemE ISBN 0852951671
+   5. ^ The Times 14 June 1997 page 8
+
+[edit] Books (sole author)
+
+    * Cheaper, safer plants, or wealth and safety at work: notes on inherently safer and simpler plants (1984) IChemE ISBN 0852951671
+    * Improving Chemical Engineering Practices: A New Look at Old Myths of the Chemical Industry (1989) Taylor & Francis, ISBN 0-89116-929-6;
+    * Critical Aspects of Safety and Loss Prevention (1990) Butterworths ISBN 978-0408044295;
+    * Plant Design for Safety – a user-friendly approach (1991) Taylor & Francis ISBN 978-1560320685;
+    * Lessons from Disaster - How Organisations Have No Memory and Accidents Recur(1993) IChemE ISBN 0-85295-307-0;
+    * Learning from Accidents (1994/2001) Butterworth-Heinemann ISBN 0-7506-4883-X;
+    * Dispelling Chemical Engineering Myths (1996) Taylor & Francis, ISBN 1-56032-438-4;
+    * Process Plants – a handbook for inherently safer design (1998) Taylor & Francis ISBN 978-1-56032-619-9;
+    * What Went Wrong? Case Histories of Process Plant Disasters(1998) Gulf, ISBN 0-88415-920-5;
+    * Hazop and Hazan 4th ed (1999) Taylor & Francis, ISBN 0-85295-421-2;
+    * By Accident… a Life Preventing them in industry (2000) PFV, ISBN 0-9538440-0-5;
+    * An Engineer’s View of Human Error 3rd ed (2001) IChemE, ISBN 0-85295-430-1;
+    * Still Going Wrong: Case Histories of Process Plant Disasters and How They Could Have Been Avoided (2003) Gulf, ISBN 0-7506-7709-0
+
+[edit] Books (joint author)
+
+    * Trevor Kletz, Paul Chung, Eamon Broomfield and Chaim Shen-Orr (1995) Computer Control and Human Error IChemE, ISBN 0-85295-362-3;
+
+[edit] External links
+
+    * Trevor's Corner Mary Kay O’Connor Process Safety Center
+    * Loughborough University Oration on the award of an honorary degree 2006
+    * Loughborough University Brief biography and list of publications
+
+Retrieved from "http://en.wikipedia.org/wiki/Trevor_Kletz"
+Categories: 1922 births | Living people | People from Darlington | ICI people | British chemical engineers | Alumni of the University of Liverpool | Old King's Scholars (Chester) | Fellows of the Royal Academy of Engineering | Academics of Loughborough University

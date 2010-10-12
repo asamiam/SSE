@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://SSE/skin/SSE.css"
+                 type="text/css"?>
+
+<overlay id="forcessl-overlay"  xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+  <script src="overlay.js"/>
+
+  <statusbar id="status-bar">
+    <statusbarpanel style="color: blue; font-size: 10pt;" id="sseen-button" label="SSE enabled" onclick="toggle()"/>
+
+    <textbox id="pageGenText" value="enter URL to verify" clickSelectsAll="true" style="width: 20em;" color="#CC0080"/>
+
+    <button id="fullreport" label="Full Report" style="color: blue" oncommand="webpagegen(document.getElementById('pageGenText').value);"/>
+
+<button type="menu" label="^">
+  <menupopup>
+    <menuitem label="wreferral" oncommand="switchWebservice(1);"/>
+    <menuitem label="test server" oncommand="switchWebservice(2);"/>
+    <menuitem label="test server(debug)" oncommand="switchWebservice(3);"/>
+  </menupopup>
+</button>
+
+  </statusbar>
+</overlay>
+

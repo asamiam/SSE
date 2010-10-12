@@ -1,0 +1,3 @@
+content	SSE	chrome/content/
+overlay	chrome://browser/content/browser.xul	chrome://SSE/content/overlay.xul
+skin SSE classic/1.0 chrome/skin/

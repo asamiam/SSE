@@ -1,0 +1,15 @@
+The Nuances:
+Finding the difference between two dates isn't as straightforward as subtracting the two dates and dividing the result by (24 * 60 * 60 * 1000). Infact, its erroneous!
+
+For example: The difference between the two dates 03/24/2007 and 03/25/2007 should be 1 day; However, using the above method, in the UK, you'll get 0 days!
+
+See for yourself (code below). Going the milliseconds way will lead to rounding off errors and they become most evident once you have a little thing like Daylight Savings Time come into the picture.
+
+OUTPUT:
+Manual - Days between: 01-Jan-2007 and 02-Jan-2007 is: 1
+Calendar - Days between: 01-Jan-2007 and 02-Jan-2007 is: 1
+---
+Manual - Days between: 24-Mar-2007 and 25-Mar-2007 is: 0
+Calendar - Days between: 24-Mar-2007 and 25-Mar-2007 is: 1
+Posted by Arched Eyebrow at 3:09 PM
+Labels: java, sample code, tips and tricks

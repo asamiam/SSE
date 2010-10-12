@@ -1,0 +1,31 @@
+10
+
+dir
+105
+http://svn.xp-dev.com/svn/SSETesting/Netbeans%20Project/SSE2/build/web/WEB-INF/classes/com/SSE
+http://svn.xp-dev.com/svn/SSETesting
+
+
+
+2010-04-09T08:17:00.787503Z
+88
+jcampbell
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+6766d1a3-b43b-42e0-9a41-86d3fa881b55
+
+struts
+dir
+

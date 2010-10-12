@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/SSETesting/!svn/ver/102/Plugin
+END
+install.rdf
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/SSETesting/!svn/ver/92/Plugin/install.rdf
+END
+chrome.manifest
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/SSETesting/!svn/ver/92/Plugin/chrome.manifest
+END
+build.xml
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/SSETesting/!svn/ver/93/Plugin/build.xml
+END
+manifest.mf
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/SSETesting/!svn/ver/93/Plugin/manifest.mf
+END
+SSE.xpi
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/SSETesting/!svn/ver/102/Plugin/SSE.xpi
+END
